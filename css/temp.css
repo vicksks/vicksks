@@ -6,3 +6,10 @@
 {
     padding-top: 550px;
 }
+
+@media (max-width: 700px) {
+       .pad{
+           padding-top: 300px;
+           padding-bottom: 50px;
+       }
+    }
