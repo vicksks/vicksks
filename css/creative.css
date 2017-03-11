@@ -67,12 +67,12 @@ aside {
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   #mainNav .navbar-brand {
-    color: #F05F40;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    font-weight: 700;
+    color:#5e4b4b;
+    font-family: 'Alice', serif;
+    /*font-weight: 700;*/
     text-transform: uppercase; }
     #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-      color: #f05f40; }
+      ccolor:#5e4b4b; }
   #mainNav .navbar-toggle {
     font-weight: 700;
     font-size: 12px;
@@ -81,8 +81,8 @@ aside {
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 13px;
+    
+    font-size: 12px;
     color: #222222; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -99,12 +99,16 @@ aside {
       background-color: transparent;
       border-color: rgba(255, 255, 255, 0.3); }
       #mainNav .navbar-brand {
-        color: rgba(255, 255, 255, 0.7); }
+        font-size: 12px;
+        font-family: 'Alice', serif;
+        /*color: rgba(255, 255, 255, 0.7); }*/
+color:#5e4b4b;}
         #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
           color: white; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-        color: rgba(255, 255, 255, 0.7); }
+        color: 5e4b4b; 
+        font-family: 'Alice', serif;}
         #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
         #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
           color: white; }
@@ -112,7 +116,7 @@ aside {
         background-color: white;
         border-color: rgba(34, 34, 34, 0.05); }
         #mainNav.navbar-shrink .navbar-brand {
-          color: #F05F40;
+          color:#5e4b4b;
           font-size: 16px; }
           #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
             color: #f05f40; }
